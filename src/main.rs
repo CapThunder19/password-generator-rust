@@ -2,7 +2,7 @@ use clap::Parser;
 use rand::RngExt;
 
 #[derive(Parser)]
-#[command(author = "Anirudh", version = "1.0", about = "Password generator")]
+#[command(author = "CapThunder19", version = "1.0", about = "Password generator")]
 struct Args {
     #[arg(short, long, default_value_t = 12)]
     length: usize,
